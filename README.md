@@ -6,7 +6,7 @@ gcc filename.c -lglut -lGL -lGLU
 OR 
 gcc filename.c -lglut -lGL -lGLU -lm (If math lib is include)
 
-This code involves the implementation of various graphics algorithms and 2D transformations. The project aims to create a graphical interface where users can draw lines, circles, polygons, and apply transformations to objects.
+This code involves the implementation of various graphics algorithms and 2D transformations. The project aims to create a graphical interface where users can draw lines, circles, and polygons, and apply transformations to objects.
 
 ### 1. Line Drawing Algorithms
 - DDA Line Drawing Algorithm
@@ -23,14 +23,14 @@ This code involves the implementation of various graphics algorithms and 2D tran
 
 ### 3. Polygon Filling Methods
 - Flood Fill / Seed Fill
-  - Implemented using mouse click, keyboard interface, and menu-driven programming
+  - Implemented using a mouse click, keyboard interface, and menu-driven programming
 - Boundary Fill
-  - Implemented using mouse click, keyboard interface, and menu-driven programming
+  - Implemented using a mouse click, keyboard interface, and menu-driven programming
 
 ### 4. Polygon Clipping Method
 - Cohen Sutherland Polygon Clipping Method
   - Clipping the polygon with respect to the viewport and window
-  - Implemented using mouse click and keyboard interface
+  - Implemented using a mouse click and keyboard interface
 
 ### 5. 2D Transformations
 - Scaling
